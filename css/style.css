@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    width: 100%;
+    min-height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+
+.header-control{
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.view{
+    background-color: lightgray;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.view i {
+   border-radius: 10px;
+    
+}
+
+.screen{
+    background-color: lightgrey;
+    border-radius: 10px;
+
+}
+
+.screen i{
+    padding: 5px;
+    color: white;
+    min-height: 28px;
+}
+
+a{
+    text-decoration: none;
+}
+
