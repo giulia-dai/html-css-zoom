@@ -5,7 +5,7 @@
 }
 
 .header-container{
-    width: 100%;
+    width: 100vw;
     min-height: 70px;
     background-color: black;
     position: fixed;
@@ -68,11 +68,11 @@ a{
 }
 
 .col{
-    max-height: 150px;
     background-color: green;
     position: relative;
     margin: 5px;
     width: calc((100% / 7) - 10px);
+    height: 14vh;
 }
 
 .item{
@@ -86,18 +86,51 @@ img{
 }
 .nome {
     position: absolute;
-    left: 20px;
+    left: 26px;
     bottom: 0;
     color: white;
     background-color: #d3d3d378;
     padding: 2px;
 }
 
-.fa-microphone-slash{
+.item > .fa-microphone-slash{
   position: absolute;
   bottom: 0;
   left: 0;
   color: white;
   background-color: #d3d3d378;
   padding: 3px;
+  font-size: 16px;
+}
+
+/* FOOTER */
+
+.bottom-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 13vh;
+    background-color: orange;
+    z-index: 1;
+}
+
+.bar-control{
+    padding: 10px;
+    background-color: palegreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+
+.fa-solid{
+    font-size: 30px;
+    padding: 5px;
+    color: white;
+}
+
+.fa-share-from-square{
+    color: green;
 }
