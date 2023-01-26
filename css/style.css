@@ -11,7 +11,7 @@
     position: fixed;
     top: 0;
     left: 0;
-   
+    z-index: 1;
 }
 
 .header-control{
@@ -52,3 +52,52 @@ a{
     text-decoration: none;
 }
 
+/* MAIN CSS */
+.container{
+    width: 100vw;
+    padding: 10px;
+    margin: 70px auto;
+    background-color: cyan;
+}
+
+.columns{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    
+}
+
+.col{
+    max-height: 150px;
+    background-color: green;
+    position: relative;
+    margin: 5px;
+    width: calc((100% / 7) - 10px);
+}
+
+.item{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.nome {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    color: white;
+    background-color: #d3d3d378;
+    padding: 2px;
+}
+
+.fa-microphone-slash{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #d3d3d378;
+  padding: 3px;
+}
